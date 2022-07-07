@@ -1,0 +1,15 @@
+query GetAllLunchList {
+  launches {
+    flight_number
+    mission_name
+    launch_year
+  }
+}
+
+query GetAllLunchListNew {
+  launches {
+    flight_number
+    mission_name
+    launch_year
+  }
+}
